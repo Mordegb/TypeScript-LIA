@@ -7,6 +7,7 @@ let vivo: boolean = true;
 
 
 //o console log pode imprimir numeros, variaveis e strings
+console.clear() //limpa o terminal, liretalmente so isso. é irritantemente facil
 console.log(idade); 
 console.log(22);
 console.log("mensagem generica");
