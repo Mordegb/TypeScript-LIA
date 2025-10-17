@@ -23,9 +23,6 @@ class pessoa {
         return this.idade;
     }
 
-
-
-
 }
 
 const cadu = new pessoa('Cadu' , 18);
