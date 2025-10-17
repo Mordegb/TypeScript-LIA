@@ -3,8 +3,9 @@ class pessoa {
     nome: string;
     idade: number;
     genero: string;
+    peso: number;
 
-    constructor(nome = 'generico' , idade = 18 , genero = 'indefinido'){
+    constructor(nome = 'generico' , idade = 18 , genero = 'indefinido' , peso = 80){
         this.nome = nome;
         this.idade = idade;
         this.genero = genero
