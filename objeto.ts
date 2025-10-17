@@ -1,8 +1,8 @@
 class pessoa {
     //propriedades / instancias
-    nome: string;
-    idade: number;
-    genero: string;
+    private nome: string;
+    private idade: number;
+    public genero: string;
 
     constructor(nome = 'generico' , idade = 18 , genero = 'indefinido'){
         this.nome = nome;
